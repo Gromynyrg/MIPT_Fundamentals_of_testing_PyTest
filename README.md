@@ -4,7 +4,7 @@
 
 ## Структура проекта
 
-- `booking_service.py`: Содержит реализацию функций Booking-сервиса.
+- `services/booking_functions.py`: Содержит реализацию функций Booking-сервиса.
 - `tests/test_booking_service.py`: Содержит PyTest-тесты для функций из `booking_service.py`.
 - `requirements.txt`: Список зависимостей проекта.
 - `README.md`: Этот файл.
@@ -119,5 +119,4 @@ pytest
     -   `mocker.patch`: Для мокирования функций (например, `builtins.print`).
 -   **Проверка исключений (`pytest.raises`)**: Для тестирования корректной обработки ошибок.
 -   **Сравнение float (`pytest.approx`)**: Для надежного сравнения чисел с плавающей запятой.
-```
 
